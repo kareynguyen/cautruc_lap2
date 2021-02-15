@@ -1,0 +1,12 @@
+    for (row=1; row<=7; row++){
+        for (col=1; col<=21; col++){
+            if (row == 1 || row == 7){
+                document.write('&nbsp*&nbsp')
+            }else
+                if (col ==1 || col ==21){
+                    document.write('&nbsp*&nbsp')
+                }else {
+                    document.write('&nbsp&nbsp&nbsp&nbsp')
+                }
+        }document.write('<br>')
+    }

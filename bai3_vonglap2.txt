@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tittle</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    let row, col;
+
+    for (row=1; row<=5; row++){
+        for (col=1; col<=row; col++){
+            document.write('&nbsp*&nbsp')
+        }document.write('<br>')
+    }document.write('<hr>')
+
+    for (row=1; row<=5; row++){
+        for (col=5; col>=row; col--){
+            document.write('&nbsp*&nbsp')
+        }for (col=1; col<=row; col++){
+            document.write('&nbsp&nbsp&nbsp&nbsp')
+        }document.write('<br>')
+    }document.write('<hr>')
+
+    for (row=1; row<=5; row++){
+        for (col=5; col>=row; col--){
+            document.write('&nbsp&nbsp&nbsp&nbsp')
+        }for (col=1; col<=row; col++){
+            document.write('&nbsp*&nbsp')
+        }document.write('<br>')
+    }document.write('<hr>');
+
+    for (row=1; row<=5; row++){
+        for (col=1; col<=row; col++){
+            document.write('&nbsp&nbsp&nbsp&nbsp')
+        }for (col=5; col>=row; col--){
+            document.write('&nbsp*&nbsp')
+        }document.write('<br>')
+    }
+
+
+</script>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+let f0 = 0,
+f1 = 1,
+sum = f0 + f1,
+n = parseInt(prompt('Enter a number: '));
+for (i = 0; i< n-2; i++){
+    let f2 = f0 +f1;
+    sum += f2;
+    f0 = f1;
+    f1 = f2;
+    }
+document.write(" -> The sum of this string is: " + sum)
+</script>
+</body>
+</html>

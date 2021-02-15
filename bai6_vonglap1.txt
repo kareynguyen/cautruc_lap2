@@ -1,0 +1,22 @@
+zz<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+let number = parseInt(prompt('Enter a number: ')),
+    count = 0,
+    N = 1,
+    sum = 0;
+while (count < number){
+    if (N % 7 == 0){
+        count++;
+        sum += N;
+    }N++
+}
+document.write('The sum of ' + number + ' ' + 'which divided by 7 is ' + sum)
+</script>
+</body>
+</html>
